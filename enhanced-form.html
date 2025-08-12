@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to a simple, semantic, and accessible HTML5 page designed for SEO and user experience." />
+  <meta name="keywords" content="HTML5, Semantic, SEO, Accessibility, Web Development" />
+  <meta name="author" content="Kelvin Kipchirchir" />
+  <title>Week 1</title>
+</head>
+
+<body>
+ <h1>Enhanced HTML Elements</h1>
+ <h2>Frontend Development</h2>
+ <dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl>
+<h2>CHAN Countries</h2>
+<ol>
+  <li>Kenya</li>
+  <li>Uganda</li>
+  <li>Tanzania</li>
+</ol>
+
+
+<h2>Hobbies</h2>
+<ul>
+  <li>Action Movies
+    <ul>
+      <li>Badlands</li>
+      <li>Ghost rider</li>
+      <li>Shanara Chronicles</li>
+    </ul>
+  </li>
+  <li>Games
+    <ul>
+      <li>PubG</li>
+      <li>Temple Run</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Multimedia</h2>
+<h4>Handling Images</h4>
+
+<a href="https://example.com">
+  <img src="ape.jpg" alt="Portrait of ape world" width="400" height="350" />
+</a>
+
+<h4>Audio</h4>
+<audio controls>
+<source src="the_chainsmokers_don_t_let_me_down_ft._daya_mp3_42070.mp3" type="audio/mp3"> Your Browser Does Not Support audio playback
+</audio>
+<br>
+
+<iframe width="640" height="360" 
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+    title="Bohemian Rhapsody | Muppet Music Video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Movie Name</th>
+      <th>Release Date</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <caption>Upcoming Movies</caption>
+      <td>1</td>
+      <td>John Wick</td>
+      <td><i>25th August 2024</i></td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Into the Badlands</td>
+      <td><i>30th September 2025</i></td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Ip Man</td>
+      <td><i>30th November 2025</i></td>
+      <td>China</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Handling Forms</h2>
+<form action="send.php" method="post">
+  <label for="username">Username:</label><br>
+<input type="text" id="username" name="username" placeholder="john Doe" required>
+<br><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+<br><br>
+<label for="gender">Gender:</label>
+<br><br>
+<input type="radio" id="male" name="gender" value="male">Male
+<input type="radio" id="female" name="gender" value="female">Female
+<br><br>
+<label>County</label>
+<select id="county" name="county">
+  <option value="America">America</option>
+  <option value="kenya">Kenya</option>
+  <option value="Uganda">Uganda</option>
+  <option value="rwanda">Rwanda</option>
+  <option value="tanzania">Tanzania</option>
+</select>
+<br><br>
+<fieldset>
+  <legend>Votes</legend>
+  <label>choose your car</label>
+<br><br>
+<input type="checkbox" name="toyota" value="toyota">
+<label for="toyota">toyota</label><br>
+<input type="checkbox" name="ford" value="ford">
+<label for="ford">ford</label><br>
+<input type="checkbox" name="nissan" value="nissan">
+<label for="nissan">nissan</label><br>
+<br><br>
+</fieldset>
+<label for="comments">Reasons for the Vote:</label>
+<br><br>
+<textarea id="comments" name="comments" rows="4" cols="10">
+</textarea>
+<br><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password" minlength="8" maxlength="15" required>
+<br><br>
+<label for="confirmpassword">Confirm Password:</label><br>
+<input type="password" id="confirmpassword" name="confirmpassword" minlength="8" maxlength="15" required>
+<br><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
